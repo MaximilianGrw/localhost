@@ -26,6 +26,7 @@
 127.0.0.1 ad2.adfarm1.adition.com
 127.0.0.1 adclick.g.doubleclick.net
 127.0.0.1 imagesrv.adition.com
+127.0.0.1 cdn.flashtalking.com
 
 # --- connection endpoints for Windows 10, version 1809 ---
 # src: => https://docs.microsoft.com/de-de/windows/privacy/manage-windows-1809-endpoints

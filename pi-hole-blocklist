@@ -1,5 +1,6 @@
 # This host file contains domains which are used as blocklist for pi-hole.
-# PI-Hole project: https://github.com/pi-hole
+# The PI-Hole project: https://github.com/pi-hole
+# !!! This is my personal blocklist / hosts-file! Maybe some domains are blocked or not blocked, which you need to use! ;) !!!
 # File created: 19.12.2018
 # Last Update:  19.12.2018 
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
@@ -72,6 +73,24 @@
   # 127.0.0.1 cy2.*.md.mp.microsoft.com.*.                 # Microsoft Store (used to communicate with Microsoft Store)
   # 127.0.0.1 displaycatalog.mp.microsoft.com              # Microsoft Store (used to communicate with Microsoft Store)
   # 127.0.0.1 www.msftconnecttest.com/connecttest.txt      # Network Connection Status Indicator (NCSI) => Taskbar, if disabled => (NCSI won't be able to determine if the device is connected to the Internet and the network status tray icon will show a warning)
+  # 127.0.0.1 *.a-msedge.net                               # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 *.c-msedge.net                               # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 *.e-msedge.net                               # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 *.s-msedge.net                               # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 ocos-office365-s2s.msedge.net                # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 nexusrules.officeapps.live.com               # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 officeclient.microsoft.com                   # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 outlook.office365.com                        # MS Office (used to connect to the Office 365 portal's shared infrastructure, including Office Online)
+  # 127.0.0.1 client-office365-tas.msedge.net              # MS Office (OfficeHub traffic used to get the metadata of Office apps)
+  # 127.0.0.1 to-do.microsoft.com                          # MS Office (used to connect the Office To-Do app to it's cloud service)
+  # 127.0.0.1 g.live.com/1rewlive5skydrive/ODSUProduction  # OneDrive (is a redirection service that’s used to automatically update URLs)
+  # 127.0.0.1 oneclient.sfx.ms                             # OneDrive (used by OneDrive for Business to download and verify app updates)
+  # 127.0.0.1 cy2.settings.data.microsoft.com.akadns.net   # Settings (used as a way for apps to dynamically update their configuration. Apps such as System Initiated User Feedback and the Xbox app use it)
+  # 127.0.0.1 settings.data.microsoft.com                  # Settings (used as a way for apps to dynamically update their configuration. Apps such as System Initiated User Feedback and the Xbox app use it)
+  # 127.0.0.1 settings-win.data.microsoft.com              # Settings (used as a way for apps to dynamically update their configuration. Apps such as Windows Connected User Experiences and Telemetry component and Windows Insider Program use it)
+  127.0.0.1 config.edge.skype.com                          # Skype (used to retrieve Skype configuration values)
+  127.0.0.1 browser.pipe.aria.microsoft.com                # Skype (used to retrieve Skype configuration values)
+  127.0.0.1 skypeecs-prod-usw-0-b.cloudapp.net             # Skype (used to retrieve Skype configuration values)
   
   
 

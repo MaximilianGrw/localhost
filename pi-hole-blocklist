@@ -2,7 +2,7 @@
 # PI-Hole project: https://github.com/pi-hole
 # File created: 19.12.2018
 # Last Update:  19.12.2018 
-# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
 
 # --- Skype Advertisement ---
 127.0.0.1 rad.msn.com

@@ -46,7 +46,7 @@
   127.0.0.1 store-images.s-microsoft.com                  # Cortana and Search
   # 127.0.0.1 www.bing.com/client                         # Cortana greetings, tips, and Live Tiles
   # 127.0.0.1 www.bing.com/proactive                      # Cortana (configure parameters, such as how often the Live Tile is updated)
-  # 127.0.0.1 www.bing.com/threshold/xls.aspx             # Cortana (report diagnostic and diagnostic data information)
+  127.0.0.1 www.bing.com/threshold/xls.aspx             # Cortana (report diagnostic and diagnostic data information)
   # 127.0.0.1 ctldl.windowsupdate.com                     # Certificate (Automatic Root Certificates Update component to automatically check the list of trusted authorities on Windows Update to see if an update is available
   # 127.0.0.1 login.live.com/ppsecure                     # Device authentication
   127.0.0.1 dmd.metaservices.microsoft.com.akadns.net     # Device metadata

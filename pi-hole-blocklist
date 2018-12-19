@@ -101,7 +101,19 @@
   127.0.0.1 *.search.msn.com                               # Windows Spotlight (used to retrieve Windows Spotlight metadata that describes content, such as references to image locations, as well as suggested apps, Microsoft account notifications, and Windows tips. If you turn off traffic for these endpoints, Windows Spotlight will still try to deliver new lock screen images and updated content but it will fail; suggested apps, Microsoft account notifications, and Windows tips will not be downloaded)
   127.0.0.1 ris.api.iris.microsoft.com                     # Windows Spotlight (used to retrieve Windows Spotlight metadata that describes content, such as references to image locations, as well as suggested apps, Microsoft account notifications, and Windows tips. If you turn off traffic for these endpoints, Windows Spotlight will still try to deliver new lock screen images and updated content but it will fail; suggested apps, Microsoft account notifications, and Windows tips will not be downloaded)
   127.0.0.1 query.prod.cms.rt.microsoft.com                # Windows Spotlight (used to retrieve Windows Spotlight metadata that describes content, such as references to image locations, as well as suggested apps, Microsoft account notifications, and Windows tips. If you turn off traffic for these endpoints, Windows Spotlight will still try to deliver new lock screen images and updated content but it will fail; suggested apps, Microsoft account notifications, and Windows tips will not be downloaded)
-  
-
-  
-
+  # 127.0.0.1 *.prod.do.dsp.mp.microsoft.com               # Windows Update (used for Windows Update downloads of apps and OS updates, including HTTP downloads or HTTP downloads blended with peers. If you turn off traffic for this endpoint, Windows Update downloads will not be managed, as critical metadata that is used to make downloads more resilient is blocked. Downloads may be impacted by corruption (resulting in re-downloads of full files). Additionally, downloads of the same update by multiple devices on the same local network will not use peer devices for bandwidth reduction)
+  # 127.0.0.1 *.windowsupdate.com                          # Windows Update (used to download operating system patches and updates)
+  # 127.0.0.1 fg.download.windowsupdate.com.c.footprint.net # Windows Update (used to download operating system patches and updates)
+  # 127.0.0.1 cds.d2s7q6s2.hwcdn.net                       # Windows Update (used by the Highwinds Content Delivery Network to perform Windows updates)
+  # 127.0.0.1 *wac.phicdn.net                              # Windows Update (used by the Verizon Content Delivery Network to perform Windows updates)
+  # 127.0.0.1 *wac.edgecastcdn.net                         # Windows Update (used by the Verizon Content Delivery Network to perform Windows updates)
+  # 127.0.0.1 *.tlu.dl.delivery.mp.microsoft.com.c.footprint.net  # Windows Update (used to download apps and Windows Insider Preview builds from the Microsoft Store)
+  # 127.0.0.1 fe2.update.microsoft.com                     # Windows Update (used to download apps from the Microsoft Store. It's used as part of calculating the right ranges for apps)
+  # 127.0.0.1 fe3.delivery.mp.microsoft.com                # Windows Update (enable connections to Windows Update, Microsoft Update, and the online services of the Store)
+  # 127.0.0.1 fe3.delivery.dsp.mp.microsoft.com.nsatc.net  # Windows Update (enable connections to Windows Update, Microsoft Update, and the online services of the Store)
+  # 127.0.0.1 sls.update.microsoft.com                     # Windows Update (enable connections to Windows Update, Microsoft Update, and the online services of the Store)
+  # 127.0.0.1 *.dl.delivery.mp.microsoft.com               # Windows Update (enable connections to Windows Update, Microsoft Update, and the online services of the Store)
+  # 127.0.0.1 tsfe.trafficshaping.dsp.mp.microsoft.com     # Windows Update (used for content regulation. If you turn off traffic for this endpoint, the Windows Update Agent will be unable to contact the endpoint and fallback behavior will be used. This may result in content being either incorrectly downloaded or not downloaded at all)
+  # 127.0.0.1 a122.dscd.akamai.net                         # Windows Update (used to download content)
+  # 127.0.0.1 a1621.g.akamai.net                           # Windows Update (used to download content)
+  # 127.0.0.1 go.microsoft.com                             # Microsoft forward link redirection service (FWLink) (used by the Microsoft forward link redirection service (FWLink) to redirect permanent web links to their actual, sometimes transitory, URL. FWlinks are similar to URL shorteners, just longer)

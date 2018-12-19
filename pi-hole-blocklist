@@ -1,0 +1,15 @@
+# This host file contains domains which are used as blocklist for pi-hole.
+# PI-Hole project: https://github.com/pi-hole
+# File created: 19.12.2018
+# Last Update:  19.12.2018 
+# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# --- Skype Advertisement ---
+127.0.0.1 rad.msn.com
+127.0.0.1 live.rads.msn.com
+127.0.0.1 ads1.msn.com
+127.0.0.1 static.2mdn.net
+127.0.0.1 g.msn.com
+127.0.0.1 a.ads2.msads.net
+127.0.0.1 b.ads2.msads.net
+127.0.0.1 ac3.msn.com

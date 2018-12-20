@@ -7,7 +7,7 @@
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
 #
 # You can use this blocklist as well without a pi-hole on your raspberry-pi, for example on your windows computer.
-# If your want to use it follow the introductions from this site: => https://en.wikiversity.org/wiki/Hosts_file/Edit
+# If you want to use it follow the introductions from this site: => https://en.wikiversity.org/wiki/Hosts_file/Edit
 # #################################################################################################################################
 # --- Skype Advertisement ---
 0.0.0.0 rad.msn.com

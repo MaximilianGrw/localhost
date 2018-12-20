@@ -1,10 +1,14 @@
+# #################################################################################################################################
 # This host file contains domains which are used as blocklist for pi-hole.
 # The PI-Hole project: https://github.com/pi-hole
 # !!! This is my personal blocklist / hosts-file! Maybe some domains are blocked or not blocked, which you need to use! ;) !!!
 # File created: 19.12.2018
-# Last Update:  19.12.2018 
+# Last Update:  20.12.2018 
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
-
+#
+# You can use this blocklist as well without a pi-hole on your raspberry-pi, for example on your windows computer.
+# If your want to use it follow the introductions from this site: => https://en.wikiversity.org/wiki/Hosts_file/Edit
+# #################################################################################################################################
 # --- Skype Advertisement ---
 0.0.0.0 rad.msn.com
 0.0.0.0 live.rads.msn.com

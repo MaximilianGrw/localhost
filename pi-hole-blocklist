@@ -3,7 +3,7 @@
 # The PI-Hole project: https://github.com/pi-hole
 # !!! This is my personal blocklist / hosts-file! Maybe some domains are blocked or not blocked, which you need to use! ;) !!!
 # File created: 19.12.2018
-# Last Update:  28.12.2018 
+# Last Update:  06.01.2019 
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
 #
 # You can use this blocklist as well without a pi-hole on your raspberry-pi, for example on your windows computer.
@@ -31,6 +31,7 @@
 0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 imagesrv.adition.com
 0.0.0.0 cdn.flashtalking.com
+0.0.0.0 googleads.g.doubleclick.net
 
 # --- connection endpoints for Windows 10, version 1809 ---
 # src: => https://docs.microsoft.com/de-de/windows/privacy/manage-windows-1809-endpoints

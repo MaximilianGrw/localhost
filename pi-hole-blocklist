@@ -3,7 +3,7 @@
 # The PI-Hole project: https://github.com/pi-hole
 # !!! This is my personal blocklist / hosts-file! Maybe some domains are blocked or not blocked, which you need to use! ;) !!!
 # File created: 19.12.2018
-# Last Update:  06.01.2019 
+# Last Update:  22.02.2019 
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/pi-hole-blocklist
 #
 # You can use this blocklist as well without a pi-hole on your raspberry-pi, for example on your windows computer.

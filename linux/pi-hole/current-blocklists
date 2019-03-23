@@ -26,3 +26,7 @@ https://v.firebog.net/hosts/Easylist.txt
 https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts	
 https://raw.githubusercontent.com/MaximilianGrw/localhost/master/linux/pi-hole/pi-hole-blocklist	
 https://tspprs.com/dl/tracking
+
+
+Whitlists inactive:
+https://raw.githubusercontent.com/raghavdua1995/DNSlock-PiHole-whitelist/master/whitelist.list

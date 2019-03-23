@@ -2,7 +2,6 @@ Inactive
 https://dbl.oisd.nl/ 	
 https://phishing.army/download/phishing_army_blocklist_extended.txt 	
 https://tspprs.com/dl/crypto 	
-https://tspprs.com/dl/tracking 	
 https://tspprs.com/dl/spotify 	
 https://raw.githubusercontent.com/CHEF-KOCH/Audio-fingerprint-pages/master/AudioFp.txt 	
 https://raw.githubusercontent.com/CHEF-KOCH/Canvas-fingerprinting-pages/master/Canvas.txt 	
@@ -12,3 +11,18 @@ https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/AakList.txt 	
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Prebake-Obtrusive.txt 	
 https://jasonhill.co.uk/pfsense/ytadblock.txt
+
+active:
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts	
+https://mirror1.malwaredomains.com/files/justdomains	
+http://sysctl.org/cameleon/hosts	
+https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist	
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt	
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt	
+https://hosts-file.net/ad_servers.txt	
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt	
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt	
+https://v.firebog.net/hosts/Easylist.txt	
+https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts	
+https://raw.githubusercontent.com/MaximilianGrw/localhost/master/linux/pi-hole/pi-hole-blocklist	
+https://tspprs.com/dl/tracking

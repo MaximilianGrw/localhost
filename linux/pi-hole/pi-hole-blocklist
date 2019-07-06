@@ -24,6 +24,12 @@
 0.0.0.0 coin-hive.com
 0.0.0.0 coinhive.com
 
+# ---Adobe ---
+0.0.0.1 activate.adobe.com
+0.0.0.1 practivate.adobe.com
+0.0.0.1 lmlicenses.wip4.adobe.com
+0.0.0.1 lm.licenses.adobe.com
+
 # --- Advertisement ---
 0.0.0.0 trafficjunky.com
 0.0.0.0 ad1.adfarm1.adition.com

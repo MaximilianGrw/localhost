@@ -2,8 +2,8 @@
 # This host file contains domains which are used as blocklist for pi-hole.
 # The PI-Hole project: https://github.com/pi-hole
 # !!! This is my personal blocklist / hosts-file! Maybe some domains are blocked or not blocked, which you need to use! ;) !!!
-# File created: 19.12.2018
-# Last Update:  20.01.2020 
+# File created: 18.12.2018
+# Last Update:  21.01.2020 
 # URL: => https://raw.githubusercontent.com/MaximilianGrw/localhost/master/linux/pi-hole/pi-hole-blocklist
 #
 # You can use this blocklist as well without a pi-hole on your raspberry-pi, for example on your windows computer.
@@ -19,6 +19,14 @@
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 ac3.msn.com
 0.0.0.0 apps.skype.com
+
+# --- mining ---
+0.0.0.0		cutt.ly
+0.0.0.0		www.cutt.ly
+0.0.0.0		app.getresponse.com
+0.0.0.0		app.getresponse.de
+0.0.0.0		links.wtf
+0.0.0.0		freeurlredirect.com
 
 # --- mining ---
 0.0.0.0 coin-hive.com

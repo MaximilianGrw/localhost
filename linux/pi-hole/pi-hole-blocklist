@@ -49,6 +49,7 @@
 0.0.0.0 graph.facebook.com
 0.0.0.0 trc.taboola.com
 0.0.0.0 video.bannerflow.com
+0.0.0.0 https://adclick.g.doubleclick.net
 
 # --- connection endpoints for Windows 10, version 1809 ---
 # src: => https://docs.microsoft.com/de-de/windows/privacy/manage-windows-1809-endpoints

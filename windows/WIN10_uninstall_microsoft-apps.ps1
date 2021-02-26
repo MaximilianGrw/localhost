@@ -33,3 +33,7 @@ Get-AppxPackage *soundrec* | Remove-AppxPackage
 
 Xbox
 Get-AppxPackage *xbox* | Remove-AppxPackage
+
+Cortana
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+Remove-AppxProvisionedPackage -Online -PackageName Microsoft.549981C3F5F10_1.1911.21713.0_neutral_ ~ _8wekyb3d8bbwe

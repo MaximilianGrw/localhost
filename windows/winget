@@ -1,0 +1,7 @@
+winget Google.Chrome
+winget install videoLAN.vlc
+winget install 7zip.7zip
+winget install PuTTY.PuTTY
+winget install Microsoft.PowerToys
+winget install vscode
+winget install sumatrapdf

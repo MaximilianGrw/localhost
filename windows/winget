@@ -6,3 +6,4 @@ winget install Microsoft.PowerToys                winget upgrade Microsoft.Power
 winget install vscode                             winget upgrade vscode
 winget install sumatrapdf                         winget upgrade sumatrapdf
 winget install TimKosse.FileZilla.Client          winget upgrade TimKosse.FileZilla.Client
+winget install IrfanSkiljan.IrfanView             winget upgrade IrfanSkiljan.IrfanView

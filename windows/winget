@@ -8,3 +8,5 @@ winget install sumatrapdf                         winget upgrade sumatrapdf
 winget install TimKosse.FileZilla.Client          winget upgrade TimKosse.FileZilla.Client
 winget install IrfanSkiljan.IrfanView             winget upgrade IrfanSkiljan.IrfanView
 winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSStudio
+winget install Spotify.Spotify                    winget upgrade Spotify.Spotify
+winget install Valve.Steam                        winget upgrade Valve.Steam

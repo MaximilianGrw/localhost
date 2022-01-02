@@ -10,3 +10,4 @@ winget install IrfanSkiljan.IrfanView             winget upgrade IrfanSkiljan.Ir
 winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSStudio
 winget install Spotify.Spotify                    winget upgrade Spotify.Spotify
 winget install Valve.Steam                        winget upgrade Valve.Steam
+winget install CodeSector.TeraCopy                winget upgrade CodeSector.TeraCopy

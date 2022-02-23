@@ -11,4 +11,5 @@ winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSS
 winget install Spotify.Spotify                    winget upgrade Spotify.Spotify
 winget install Valve.Steam                        winget upgrade Valve.Steam
 winget install CodeSector.TeraCopy                winget upgrade CodeSector.TeraCopy
-winget install GitHub.GitHubDesktop               winget upgrade winget install GitHub.GitHubDesktop
+winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDesktop
+winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment

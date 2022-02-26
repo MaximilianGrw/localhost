@@ -13,3 +13,4 @@ winget install Valve.Steam                        winget upgrade Valve.Steam
 winget install CodeSector.TeraCopy                winget upgrade CodeSector.TeraCopy
 winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDesktop
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
+winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge

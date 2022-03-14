@@ -14,3 +14,4 @@ winget install CodeSector.TeraCopy                winget upgrade CodeSector.Tera
 winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDesktop
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge
+winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark

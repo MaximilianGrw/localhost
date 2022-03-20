@@ -15,3 +15,4 @@ winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDe
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
+winget install Notepad++.Notepad++                winget upgrade Notepad++.Notepad++

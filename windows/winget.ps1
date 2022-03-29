@@ -20,3 +20,4 @@ winget install Greenshot.Greenshot                winget upgrade Greenshot.Green
 winget install Garmin.GarminExpress               winget upgrade Garmin.GarminExpress
 
 winget install REALiX.HWiNFO                      winget upgrade REALiX.HWiNFO
+winget install Microsoft.Teams                    winget upgrade Microsoft.Teams

@@ -21,3 +21,9 @@ winget install Garmin.GarminExpress               winget upgrade Garmin.GarminEx
 
 winget install REALiX.HWiNFO                      winget upgrade REALiX.HWiNFO
 winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
+
+
+
+
+TeamSpeakSystems.TeamSpeakClient
+winget install ApacheFriends.Xampp                 winget upgrade ApacheFriends.Xampp

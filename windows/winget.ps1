@@ -21,8 +21,12 @@ winget install Garmin.GarminExpress               winget upgrade Garmin.GarminEx
 
 winget install REALiX.HWiNFO                      winget upgrade REALiX.HWiNFO
 winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
+winget install Microsoft.WindowsTerminal          winget upgrade Microsoft.WindowsTerminal
 
+winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.AdvancedIPScanner
 
+winget install TeamViewer.TeamViewer              winget upgrade TeamViewer.TeamViewer
+winget install Apple.iTunes                       winget upgrade Apple.iTunes
 
 
 TeamSpeakSystems.TeamSpeakClient

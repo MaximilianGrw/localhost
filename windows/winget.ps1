@@ -28,6 +28,8 @@ winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.Advanc
 winget install TeamViewer.TeamViewer              winget upgrade TeamViewer.TeamViewer
 winget install Apple.iTunes                       winget upgrade Apple.iTunes
 
+winget install TechPowerUp.GPU-Z                  winget upgrade TechPowerUp.GPU-Z
+winget install CPUID.CPU-Z                        winget upgrade CPUID.CPU-Z
 
 TeamSpeakSystems.TeamSpeakClient
 winget install ApacheFriends.Xampp                 winget upgrade ApacheFriends.Xampp

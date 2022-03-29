@@ -17,3 +17,4 @@ winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMer
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
 winget install Notepad++.Notepad++                winget upgrade Notepad++.Notepad++
 winget install Greenshot.Greenshot                winget upgrade Greenshot.Greenshot
+winget install Garmin.GarminExpress               winget upgrade Garmin.GarminExpress

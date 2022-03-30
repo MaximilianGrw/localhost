@@ -31,5 +31,6 @@ winget install Apple.iTunes                       winget upgrade Apple.iTunes
 winget install TechPowerUp.GPU-Z                  winget upgrade TechPowerUp.GPU-Z
 winget install CPUID.CPU-Z                        winget upgrade CPUID.CPU-Z
 
-TeamSpeakSystems.TeamSpeakClient
-winget install ApacheFriends.Xampp                 winget upgrade ApacheFriends.Xampp
+winget install TeamSpeakSystems.TeamSpeakClient   winget upgrade TeamSpeakSystems.TeamSpeakClient 
+winget install Discord.Discord                    winget upgrade Discord.Discord
+winget install ApacheFriends.Xampp                winget upgrade ApacheFriends.Xampp

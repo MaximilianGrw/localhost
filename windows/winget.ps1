@@ -1,4 +1,4 @@
-winget install Google.Chrome
+winget install Google.Chrome                      winget upgrade Google.Chrome
 winget install videoLAN.vlc                       winget upgrade videoLAN.vlc
 winget install 7zip.7zip                          winget upgrade 7zip.7zip
 winget install PuTTY.PuTTY                        winget upgrade PuTTY.PuTTY

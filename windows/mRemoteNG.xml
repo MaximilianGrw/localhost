@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Apps>
+
+    <App DisplayName="Computer Manager" FileName="%WINDIR%\system32\compmgmt.msc" Arguments="/Computer=%HostName%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Explorer - C:
+
+" FileName="%WINDIR%\explorer.exe" Arguments="\\%HostName%\c$" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Explorer - E:" FileName="%WINDIR%\explorer.exe" Arguments="\\%HostName%\e$" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Powershell - CredSSP" FileName="%WINDIR%\system32\WindowsPowerShell\v1.0\PowerShell.exe" Arguments="-NoProfile
+
+ -NoExit -Command &quot;&amp;{ Set-Location -Path C:\Temp\ ; $host.ui.RawUI.WindowTitle= '%Hostname%' ; Enter-PSSession -Authentication CredSSP -ComputerName %Hostname% -EnableNetworkAccess -Credential $(Get-Credential
+
+ -Message 'Log on %Hostname% ') }&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="False" />
+
+    <App DisplayName="Powershell - Current user" FileName="%WINDIR%\system32\WindowsPowerShell\v1.0\PowerShell.exe" Arguments="-NoProfile
+
+ -ExecutionPolicy Bypass -NoExit -Command &quot;&amp;{  Set-Location -Path C:\Temp\ ; $host.ui.RawUI.WindowTitle = '%Hostname%' ; Enter-PSSession -ComputerName %Hostname% -EnableNetworkAccess }&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="SQL Server Manager" FileName="&quot;C:\Program
+
+ Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe&quot;" Arguments="-S
+
+ %Hostname%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Event Viewer" FileName="%WINDIR%\system32\eventvwr.exe" Arguments="%HostName%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="RemoteDesktop-MultiMonitor" FileName="C:\Windows\System32\mstsc.exe" Arguments="/multimon
+
+ /v:%HostName%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="False" />
+
+    <App DisplayName="RemoteDesktop-1400x900" FileName="C:\Windows\System32\mstsc.exe" Arguments="/v:%HostName%
+
+ /w:1400 /h:900" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="False" />
+
+    <App DisplayName="Telegraf endpoint" FileName="%HOMEPATH%\AppData\Local\Chromium\Application\chrome.exe" Arguments="-app=http://%HostName%:9273/metrics" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="False" />
+
+    <App DisplayName="wmi_exporter endpoint" FileName="%HOMEPATH%\AppData\Local\Chromium\Application\chrome.exe" Arguments="-app=http://%HostName%:9182/metrics" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="False" />
+
+    <App DisplayName="RemoteDesktop-Shadow" FileName="C:\Windows\System32\mstsc.exe" Arguments="/v:%HostName%
+
+ /shadow:1 /control /noConsentPrompt /w:1400 /h:900" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Services" FileName="services.msc" Arguments="/computer:%hostname%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Splunk" FileName="%HOMEPATH%\AppData\Local\Chromium\Application\chrome.exe" Arguments="-app=https://splunk.skead.no/en-US/app/search/search?q=search%20ComputerName%3D%HostName%" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+    <App DisplayName="Hostname to clipboard" FileName="%WINDIR%\system32\WindowsPowerShell\v1.0\PowerShell.exe" Arguments="-NoProfile
+
+ -NoLogo -WindowStyle Hidden -Command &quot;&amp;{ '%Hostname%' | Set-Clipboard}; exit&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+
+</Apps>

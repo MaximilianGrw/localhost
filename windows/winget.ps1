@@ -14,7 +14,10 @@ winget install CodeSector.TeraCopy                winget upgrade CodeSector.Tera
 winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDesktop
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge
+
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
+winget install Insecure.Npcap                     winget upgrade Insecure.Npcap
+
 winget install Notepad++.Notepad++                winget upgrade Notepad++.Notepad++
 winget install Greenshot.Greenshot                winget upgrade Greenshot.Greenshot
 winget install Garmin.GarminExpress               winget upgrade Garmin.GarminExpress

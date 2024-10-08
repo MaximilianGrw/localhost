@@ -15,8 +15,12 @@ winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDe
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge
 
+
+:: network diagnostic
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
 winget install Insecure.Npcap                     winget upgrade Insecure.Npcap
+winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.AdvancedIPScanner
+winget install StefanFreischlad.Filius            winget upgrade StefanFreischlad.Filius
 
 winget install Notepad++.Notepad++                winget upgrade Notepad++.Notepad++
 winget install Greenshot.Greenshot                winget upgrade Greenshot.Greenshot
@@ -26,7 +30,7 @@ winget install REALiX.HWiNFO                      winget upgrade REALiX.HWiNFO
 winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
 winget install Microsoft.WindowsTerminal          winget upgrade Microsoft.WindowsTerminal
 
-winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.AdvancedIPScanner
+
 
 winget install TeamViewer.TeamViewer              winget upgrade TeamViewer.TeamViewer
 winget install Apple.iTunes                       winget upgrade Apple.iTunes

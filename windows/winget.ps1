@@ -47,3 +47,5 @@ winget install TeamSpeakSystems.TeamSpeakClient   winget upgrade TeamSpeakSystem
 winget install Discord.Discord                    winget upgrade Discord.Discord
 winget install ApacheFriends.Xampp                winget upgrade ApacheFriends.Xampp
 winget install WinSCP.WinSCP                      winget upgrade WinSCP.WinSCP
+
+pause

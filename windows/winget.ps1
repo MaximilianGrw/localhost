@@ -1,4 +1,4 @@
-winget install Google.Chrome                      winget upgrade Google.Chrome
+:: default
 winget install videoLAN.vlc                       winget upgrade videoLAN.vlc
 winget install 7zip.7zip                          winget upgrade 7zip.7zip
 winget install PuTTY.PuTTY                        winget upgrade PuTTY.PuTTY
@@ -15,12 +15,17 @@ winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDe
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMerge
 
-
 :: network diagnostic
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
 winget install Insecure.Npcap                     winget upgrade Insecure.Npcap
 winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.AdvancedIPScanner
 winget install StefanFreischlad.Filius            winget upgrade StefanFreischlad.Filius
+
+:: browser
+winget install Google.Chrome                      winget upgrade Google.Chrome
+winget install Mozilla.Firefox.ESR.de             winget upgrade Mozilla.Firefox.ESR.de
+winget install Mozilla.Firefox                    winget upgrade Mozilla.Firefox
+winegt install Microsoft.Edge                     winget upgrade Microsoft.Edge
 
 winget install Notepad++.Notepad++                winget upgrade Notepad++.Notepad++
 winget install Greenshot.Greenshot                winget upgrade Greenshot.Greenshot

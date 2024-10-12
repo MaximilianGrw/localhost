@@ -5,7 +5,7 @@ winget install PuTTY.PuTTY                        winget upgrade PuTTY.PuTTY
 winget install Microsoft.PowerToys                winget upgrade Microsoft.PowerToys
 winget install vscode                             winget upgrade vscode
 winget install sumatrapdf                         winget upgrade sumatrapdf
-winget install TimKosse.FileZilla.Client          winget upgrade TimKosse.FileZilla.Client
+:: winget install TimKosse.FileZilla.Client       ::winget upgrade TimKosse.FileZilla.Client  :: currently not in the package management
 winget install IrfanSkiljan.IrfanView             winget upgrade IrfanSkiljan.IrfanView
 winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSStudio
 winget install Spotify.Spotify                    winget upgrade Spotify.Spotify

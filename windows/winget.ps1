@@ -14,6 +14,7 @@ winget install Microsoft.PowerToys                winget upgrade Microsoft.Power
 winget install IrfanSkiljan.IrfanView             winget upgrade IrfanSkiljan.IrfanView
 winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSStudio
 winget install Spotify.Spotify                    winget upgrade Spotify.Spotify
+winget install Sky.SkyGo                          winget upgrade Sky.SkyGo
 
 
 :: file management

@@ -16,6 +16,10 @@ winget install OBSProject.OBSStudio               winget upgrade OBSProject.OBSS
 winget install Spotify.Spotify                    winget upgrade Spotify.Spotify
 winget install Sky.SkyGo                          winget upgrade Sky.SkyGo
 
+:: logitech
+winget install Logitech.LogiBolt                  winget upgrade Logitech.LogiBolt                      
+winget install Logitech.UnifyingSoftware          winget upgrade Logitech.UnifyingSoftware       
+winget install Logitech.OptionsPlus               winget upgrade Logitech.OptionsPlus
 
 :: file management
 winget install CodeSector.TeraCopy                winget upgrade CodeSector.TeraCopy
@@ -24,6 +28,7 @@ winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMer
 :: office
 winget install sumatrapdf                         winget upgrade sumatrapdf
 winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
+winget install geeksoftwareGmbH.PDF24Creator      winget upgrade geeksoftwareGmbH.PDF24Creator
 
 :: development
 winget install vscode                             winget upgrade vscode
@@ -44,6 +49,7 @@ winget install StefanFreischlad.Filius            winget upgrade StefanFreischla
 winget install PuTTY.PuTTY                        winget upgrade PuTTY.PuTTY
 winget install TeamViewer.TeamViewer              winget upgrade TeamViewer.TeamViewer
 winget install WinSCP.WinSCP                      winget upgrade WinSCP.WinSCP
+winget install mRemoteNG.mRemoteNG                winget upgrade mRemoteNG.mRemoteNG
 :: winget install TimKosse.FileZilla.Client       ::winget upgrade TimKosse.FileZilla.Client  :: currently not in the package management
 
 winget install Garmin.GarminExpress               winget upgrade Garmin.GarminExpress

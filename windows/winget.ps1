@@ -1,3 +1,6 @@
+:: basis
+winget install Microsoft.AppInstaller            winget upgrade Microsoft.AppInstaller
+
 :: default
 winget install videoLAN.vlc                       winget upgrade videoLAN.vlc
 winget install 7zip.7zip                          winget upgrade 7zip.7zip

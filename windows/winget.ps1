@@ -42,7 +42,6 @@ winget install GitHub.GitHubDesktop               winget upgrade GitHub.GitHubDe
 winget install Oracle.JavaRuntimeEnvironment      winget upgrade Oracle.JavaRuntimeEnvironment
 
 :: network
-
 winget install WiresharkFoundation.Wireshark      winget upgrade WiresharkFoundation.Wireshark
 winget install Insecure.Npcap                     winget upgrade Insecure.Npcap
 winget install Famatech.AdvancedIPScanner         winget upgrade Famatech.AdvancedIPScanner

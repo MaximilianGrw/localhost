@@ -30,7 +30,17 @@ winget install WinMerge.WinMerge                  winget upgrade WinMerge.WinMer
 
 :: office
 winget install sumatrapdf                         winget upgrade sumatrapdf
+winget install Microsoft.Office                   winget upgrade Microsoft.Office ::Microsoft 365 Apps for enterprise
 winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
+winget install Microsoft.Sysinternals.Autoruns    winget upgrade Microsoft.Sysinternals.Autoruns ::
+winget install Microsoft.Sysinternals.BGInfo      winget install Microsoft.Sysinternals.BGInfo ::
+winget install Microsoft.DirectX                  winget upgrade Microsoft.DirectX ::
+winget install Microsoft.OneDrive                 winget upgrade Microsoft.OneDrive ::
+winget install Microsoft.PowerBI                  winget upgrade Microsoft.PowerBI ::
+winget install Microsoft.SQLServerManagementStudio  winget upgrade Microsoft.SQLServerManagementStudio :: 
+winget install Microsoft.Sysinternals.ProcessExplorer winget upgrade Microsoft.Sysinternals.ProcessExplorer ::
+winget install Microsoft.Sysinternals.ProcessMonitor  winget upgrade Microsoft.Sysinternals.ProcessMonitor ::
+winget install Microsoft.VisioViewer              winget upgrade Microsoft.VisioViewer :: Microsoft Visio Viewer 2016
 winget install geeksoftwareGmbH.PDF24Creator      winget upgrade geeksoftwareGmbH.PDF24Creator
 
 :: development

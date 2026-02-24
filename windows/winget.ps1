@@ -1,4 +1,4 @@
-:: basis
+:: basis installs
 winget install Microsoft.AppInstaller            winget upgrade Microsoft.AppInstaller
 
 :: default

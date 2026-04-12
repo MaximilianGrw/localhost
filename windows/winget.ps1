@@ -65,7 +65,6 @@ winget install mRemoteNG.mRemoteNG                winget upgrade mRemoteNG.mRemo
 :: winget install TimKosse.FileZilla.Client       ::winget upgrade TimKosse.FileZilla.Client  :: currently not in the package management
 
 winget install Garmin.GarminExpress               winget upgrade Garmin.GarminExpress
-winget install Microsoft.Teams                    winget upgrade Microsoft.Teams
 winget install Microsoft.WindowsTerminal          winget upgrade Microsoft.WindowsTerminal
 winget install Apple.iTunes                       winget upgrade Apple.iTunes
 

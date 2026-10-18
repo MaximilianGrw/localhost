@@ -1,10 +1,33 @@
-:: basis installs
+:: First package installation / Update to refresh the package sources
 winget install Microsoft.AppInstaller            winget upgrade Microsoft.AppInstaller
 
-:: default
+:: default (basics)
 winget install videoLAN.vlc                       winget upgrade videoLAN.vlc
 winget install 7zip.7zip                          winget upgrade 7zip.7zip
+
 winget install Greenshot.Greenshot                winget upgrade Greenshot.Greenshot
+:: Greenshot
+taskkill /IM Greenshot.exe /F /T >nul 2>&1
+if %errorlevel%==0 (
+    echo Greenshot was closed.
+) else (
+    echo Greenshot is not running.
+)
+
+winget upgrade Greenshot.Greenshot
+
+:: Restart Greenshot
+set "GS_EXE="
+if exist "%ProgramFiles%\Greenshot\Greenshot.exe" set "GS_EXE=%ProgramFiles%\Greenshot\Greenshot.exe"
+if exist "%ProgramFiles(x86)%\Greenshot\Greenshot.exe" set "GS_EXE=%ProgramFiles(x86)%\Greenshot\Greenshot.exe"
+if exist "%LocalAppData%\Programs\Greenshot\Greenshot.exe" set "GS_EXE=%LocalAppData%\Programs\Greenshot\Greenshot.exe"
+
+if defined GS_EXE (
+    start "" "%GS_EXE%"
+    echo Greenshot was restarted.
+) else (
+    echo Greenshot.exe was not found.
+)
 
 :: browser
 winget install Google.Chrome                      winget upgrade Google.Chrome

@@ -1,3 +1,18 @@
+:: <==================== open Errorhandling ====================>
+:: if errmsg like "Failed when searching source; results will not be included: winget" try as as a standard user...
+winget source list
+winget source update
+:: if the error persists, run PowerShell as an administrator:
+winget source reset --force
+winget source update
+:: after that, check:
+winget search 7zip
+:: If it still doesn't work, repair WinGet or the Microsoft App Installer:
+Install-PackageProvider -Name NuGet -Force | Out-Null
+Install-Module -Name Microsoft.WinGet.Client -Force -Repository PSGallery | Out-Null
+Repair-WinGetPackageManager -Force -Latest
+:: :: <==================== end Errorhandling ====================>
+
 :: First package installation / Update to refresh the package sources
 winget install Microsoft.AppInstaller            winget upgrade Microsoft.AppInstaller
 
@@ -13,9 +28,7 @@ if %errorlevel%==0 (
 ) else (
     echo Greenshot is not running.
 )
-
 winget upgrade Greenshot.Greenshot
-
 :: Restart Greenshot
 set "GS_EXE="
 if exist "%ProgramFiles%\Greenshot\Greenshot.exe" set "GS_EXE=%ProgramFiles%\Greenshot\Greenshot.exe"
